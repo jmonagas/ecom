@@ -1,8 +1,7 @@
 .container {
-	padding: 1.5rem 1rem;
+	padding: 2rem 1rem;
 	background-color: white;
 	font-size: 18px;
-	line-height: 1.5;
 }
 
 .main {
@@ -18,9 +17,10 @@
 .footer {
 	display: flex;
 	flex: 1;
-	padding: 4rem 0;
+	padding: 3rem 0;
 	justify-content: center;
 	align-items: center;
+	border-top: solid 1px rgb(235, 235, 224);
 }
 
 .footer a {
@@ -31,7 +31,7 @@
 }
 
 .title a {
-	color: rgb(255, 81, 0);
+	color: rgb(255, 84, 0);
 	text-decoration: none;
 }
 
@@ -45,6 +45,7 @@
 
 .title {
 	margin: 0;
+	padding: 0;
 	font-size: 40px;
 }
 
@@ -55,13 +56,14 @@
 
 .description {
 	margin: 4rem 0;
+	line-height: 3;
 }
 
-.code {
-	background: #ececec;
+.highlight {
+	background: rgb(235, 235, 224);
 	border-radius: 10px;
 	padding: 1rem;
-	font-family: Roboto, san serif;
+	font-family: "Roboto Slab", sans-serif;
 }
 
 .grid {
@@ -90,9 +92,9 @@
 .card:active,
 .card:focus,
 .card:hover {
-	transition: all 0.5s ease-in-out;
+	transition: all 1s ease-in-out;
 	color: #fff;
-	background-color: rgb(255, 81, 0);
+	background-color: rgb(255, 84, 0);
 	box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0,
 		rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
 }
@@ -108,7 +110,7 @@
 }
 
 .logo {
-	height: 1em;
+	height: 1rem;
 	margin: 1rem;
 }
 

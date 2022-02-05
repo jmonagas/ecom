@@ -1,3 +1,10 @@
 module.exports = {
-  reactStrictMode: true,
-}
+	reactStrictMode: true,
+	i18n: {
+		locales: ["en"],
+		defaultLocale: "en",
+	},
+	images: {
+		domains: ["jewelsy.ml"],
+	},
+};
