@@ -1,0 +1,25 @@
+.container {
+	background-color: rgb(240, 240, 240);
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+}
+
+.brand {
+	font-size: 18px;
+	text-align: left;
+	margin-left: 3rem;
+	width: 80%;
+}
+
+.menu {
+	text-align: right;
+	margin-right: 3rem;
+	width: 20%;
+}
+
+.menuIcon {
+	border-radius: 50%;
+	background-color: white;
+}
