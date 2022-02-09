@@ -2,7 +2,6 @@
 	background-color: white;
 	font-size: 18px;
 	padding: 1rem;
-	line-height: 1.5;
 }
 
 .main {
@@ -12,6 +11,33 @@
 	align-items: center;
 	min-height: 100vh;
 	padding: 2rem 1rem;
+	line-height: 1.5;
+}
+
+.h1 {
+	font-size: 2.5rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+.h2 {
+	font-size: 2.2rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+.h3 {
+	font-size: 2rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+.h4 {
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+.h5 {
+	font-size: 1.2rem;
+	text-align: center;
+	margin: 0.5rem;
 }
 
 .textCentered {
@@ -33,28 +59,27 @@
 
 .card {
 	margin: 2rem;
-	padding: 2rem;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 10px;
-	transition: color 0.5s ease;
+	transition: all 0.3s ease-in-out;
 	width: 500px;
-	height: auto;
 	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
 		rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .card:hover {
-	transition: all 0.5s ease;
-	color: white;
-	background-color: rgb(102, 102, 102);
-	border: 3px solid white;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	border: 1px solid rgb(240, 240, 240);
 	box-shadow: rgba(14, 30, 37, 0.9) 0px 2px 4px 0px,
 		rgba(14, 30, 37, 0.9) 0px 2px 16px 0px;
 }
 
 .photos {
-	background-color: rgb(172, 172, 172);
+	background-color: rgb(240, 240, 240);
 	border-radius: 10px;
 }
 
@@ -72,8 +97,9 @@
 	}
 	.card {
 		margin: 1rem 0;
-		padding: 0.5rem;
-		width: 90%;
+		padding-top: 3rem;
+		padding-bottom: 1rem;
+		width: 92%;
 		min-height: 150px;
 		justify-content: center;
 		align-items: center;

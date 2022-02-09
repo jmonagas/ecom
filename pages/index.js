@@ -43,8 +43,8 @@ export default function Home() {
               <a className={styles.card} title="Bracelets Collection">
                 <Image
                   className={styles.photos}
-                  src={"/img/017-min.jpg"}
-                  width={350}
+                  src={"/img/bracelets.jpg"}
+                  width={250}
                   height={250}
                   objectFit="cover"
                   alt="Bracelets Collection"
@@ -59,8 +59,8 @@ export default function Home() {
               <a className={styles.card} title="Cufflinks Collection">
                 <Image
                   className={styles.photos}
-                  src={"/img/003-min.jpg"}
-                  width={350}
+                  src={"/img/cufflinks.jpg"}
+                  width={250}
                   height={250}
                   objectFit="cover"
                   alt="Cufflinks Collection"
@@ -75,8 +75,8 @@ export default function Home() {
               <a className={styles.card} title="Diamonds Collection">
                 <Image
                   className={styles.photos}
-                  src={"/img/021-min.jpg"}
-                  width={350}
+                  src={"/img/diamonds.jpg"}
+                  width={250}
                   height={250}
                   objectFit="cover"
                   alt="Diamonds Collection"
@@ -91,8 +91,8 @@ export default function Home() {
               <a className={styles.card} title="Earrings Collection">
                 <Image
                   className={styles.photos}
-                  src={"/img/004-min.jpg"}
-                  width={350}
+                  src={"/img/earrings.jpg"}
+                  width={250}
                   height={250}
                   objectFit="cover"
                   alt="Earrings Collection"
@@ -107,8 +107,8 @@ export default function Home() {
               <a className={styles.card} title="Necklaces Collection">
                 <Image
                   className={styles.photos}
-                  src={"/img/020-min.jpg"}
-                  width={350}
+                  src={"/img/necklaces.jpg"}
+                  width={250}
                   height={250}
                   objectFit="cover"
                   alt="Necklaces Collection"
@@ -123,8 +123,8 @@ export default function Home() {
               <a className={styles.card} title="Pearls Collection">
                 <Image
                   className={styles.photos}
-                  src={"/img/024-min.jpg"}
-                  width={350}
+                  src={"/img/pearls.jpg"}
+                  width={250}
                   height={250}
                   objectFit="cover"
                   alt="Pearls Collection"
@@ -139,8 +139,8 @@ export default function Home() {
               <a className={styles.card} title="Pendants Collection">
                 <Image
                   className={styles.photos}
-                  src={"/img/012-min.jpg"}
-                  width={350}
+                  src={"/img/pendants.jpg"}
+                  width={250}
                   height={250}
                   objectFit="cover"
                   alt="Pendants Collection"
@@ -155,8 +155,8 @@ export default function Home() {
               <a className={styles.card} title="Rings Collection">
                 <Image
                   className={styles.photos}
-                  src={"/img/008-min.jpg"}
-                  width={350}
+                  src={"/img/rings.jpg"}
+                  width={250}
                   height={250}
                   objectFit="cover"
                   alt="Rings Collection"
@@ -171,8 +171,8 @@ export default function Home() {
               <a className={styles.card} title="Watches Collection">
                 <Image
                   className={styles.photos}
-                  src={"/img/011-min.jpg"}
-                  width={350}
+                  src={"/img/watches.jpg"}
+                  width={250}
                   height={250}
                   objectFit="cover"
                   alt="Watches Collection"
