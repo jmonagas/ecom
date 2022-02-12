@@ -1,0 +1,76 @@
+.container {
+	font-size: 18px;
+	padding: 0.5rem;
+}
+
+.main {
+	line-height: 1.5;
+	padding: 2rem 0.5rem;
+}
+
+.textJustified {
+	text-align: justify;
+	padding: 0 0.5rem;
+}
+
+.highlights {
+	color: rgb(255, 84, 0);
+}
+
+.h1 {
+	font-size: 2.5rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.h2 {
+	font-size: 2.2rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.wrapper {
+	padding: 2rem 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	overflow: hidden;
+}
+
+.card {
+	background-color: white;
+	padding: 2rem;
+	width: 500px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+		rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.card:hover {
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	border: 1px solid rgb(240, 240, 240);
+	box-shadow: rgba(14, 30, 37, 0.9) 0px 2px 4px 0px,
+		rgba(14, 30, 37, 0.9) 0px 2px 16px 0px;
+}
+
+@media (max-width: 600px) {
+	.container,
+	.main {
+		padding: 0.5rem;
+	}
+	.card {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		width: 92%;
+		min-height: 150px;
+		justify-content: center;
+		align-items: center;
+	}
+	.textJustified {
+		padding: 0 1rem;
+	}
+}

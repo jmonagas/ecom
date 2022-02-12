@@ -1,7 +1,7 @@
 import styles from "../styles/Slider.module.css";
 import Image from "next/image";
 import { useState } from "react";
-import productSlider from "../public/data/products";
+import productSlider from "../public/data/slides";
 
 const Slider = () => {
 	const [index, setIndex] = useState(0);

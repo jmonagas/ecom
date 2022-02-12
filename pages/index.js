@@ -192,10 +192,10 @@ export default function Home() {
 						</Link>
 					</div>
 					<p className={styles.textJustified}>
-						<b>Disclaimer</b>: Janusz&trade;&nbsp;Jewelsy&reg;&nbsp;sells fine
-						jewelry only. Therefore, our clients are required by law to make any
-						and all monetary arrangements or payments in person, so that we can
-						comply with stringent laws, rules, and regulations in effect in
+						Disclaimer: Janusz&trade;&nbsp;Jewelsy&reg;&nbsp;sells fine jewelry
+						only. Therefore, our clients are required by law to make any and all
+						monetary arrangements or payments in person, so that we can comply
+						with stringent laws, rules, and regulations in effect in
 						Switzerland, as well as with all applicable laws in the host country
 						where the transaction is taking place.
 					</p>

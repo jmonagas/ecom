@@ -1,0 +1,23 @@
+.container {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	overflow: hidden;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 320px);
+	margin: 2rem;
+}
+
+.imgContainer {
+	height: 320px;
+	width: 320px;
+	padding: 10px;
+}
+
+.imgItem {
+	height: 320px;
+	width: 320px;
+}

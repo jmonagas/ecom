@@ -33,7 +33,7 @@ const Navbar = () => {
 					<ul
 						onClick={() => setOpen(false)}
 						className={styles.hamburgerList}
-						style={{ left: open ? "0px" : "-100vw" }}
+						style={{ left: open ? "0px" : "-300vw" }}
 					>
 						<li className={styles.hamburgerItem}>
 							<Link href="/">
