@@ -18,7 +18,7 @@ const Slider = () => {
 			<div className={styles.container}>
 				<div
 					className={styles.wrapper}
-					style={{ transform: `translateX(${-320 * index}px)` }}
+					style={{ transform: `translateX(${-327 * index}px)` }}
 				>
 					{productSlider.map((img, index) => (
 						<div className={styles.imgContainer} key={index}>
@@ -27,8 +27,8 @@ const Slider = () => {
 								src={img}
 								alt="Janusz Jewelsy Collections"
 								title="Janusz Jewelsy Collections"
-								width={320}
-								height={320}
+								width={327}
+								height={300}
 								objectFit="cover"
 							/>
 						</div>
@@ -39,8 +39,8 @@ const Slider = () => {
 				<span className={styles.arrowLeft} onClick={() => handleArrow("left")}>
 					<Image
 						src={"/img/arrow_left.jpg"}
-						width={20}
-						height={20}
+						width={22}
+						height={22}
 						alt="Move Left"
 						title="Move Left"
 					/>

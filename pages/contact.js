@@ -4,23 +4,22 @@ import styles from "../styles/Contact.module.css";
 export default function Contact() {
 	return (
 		<>
+			<Head>
+				<title>
+					Contact Us | Jewelsy | Fine Jewelry | Exclusive Collections
+				</title>
+				<meta
+					name="description"
+					content="Since 1848, Janusz Jewelsy is a genuine Swiss artisan and master craftsman who designs, creates and sells fine jewelry and exclusive collections at best prices"
+					key="description"
+				/>
+				<meta
+					name="keywords"
+					content="jewelry, bracelets, rings, earrings, pendants, watches, necklaces, pearls, diamonds, cufflinks"
+					key="keywords"
+				/>
+			</Head>
 			<div className={styles.container}>
-				<Head>
-					<title>
-						Jewelsy | Fine Jewelry | Exclusive Collections | Best Prices
-					</title>
-					<meta
-						name="description"
-						content="Since 1884, Janusz Jewelsy is a genuine Swiss artisan and master craftsman who designs, creates and sells fine jewelry and exclusive collections at best prices"
-						key="description"
-					/>
-					<meta
-						name="keywords"
-						content="jewelry, bracelets, rings, earrings, pendants, watches, necklaces, pearls, diamonds, cufflinks"
-						key="keywords"
-					/>
-				</Head>
-
 				<main className={styles.main}>
 					<h1 className={styles.h1}>Contact Us</h1>
 					<p className={styles.textJustified}>
@@ -48,6 +47,8 @@ export default function Contact() {
 								Bahnhofplatz
 								<br />
 								8001 Zurich
+								<br />
+								+41 (44) 210-1010
 								<h2>Schweiz</h2>
 							</a>
 						</div>
@@ -65,6 +66,8 @@ export default function Contact() {
 								Karntnerstra
 								<br />
 								1010 Vienna
+								<br />
+								+43 (1) 210-1010
 								<h2>Austria</h2>
 							</a>
 						</div>
@@ -82,6 +85,8 @@ export default function Contact() {
 								Trinity Plaz
 								<br />
 								1006 NY City
+								<br />
+								+1 (212) 210-1010
 								<h2>U.S.A.</h2>
 							</a>
 						</div>
@@ -99,6 +104,8 @@ export default function Contact() {
 								Maine Avenue
 								<br />
 								1331 Calgary
+								<br />
+								+1 (403) 210-1010
 								<h2>Canada</h2>
 							</a>
 						</div>

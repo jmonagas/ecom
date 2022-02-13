@@ -7,25 +7,23 @@ import Slider from "../components/Slider";
 export default function Home() {
 	return (
 		<>
+			<Head>
+				<title>
+					Jewelsy | Fine Jewelry | Exclusive Collections | Best Prices
+				</title>
+				<meta
+					name="description"
+					content="Since 1848, Janusz Jewelsy is a genuine Swiss artisan and master craftsman who designs, creates and sells fine jewelry and exclusive collections at best prices"
+					key="description"
+				/>
+				<meta
+					name="keywords"
+					content="jewelry, bracelets, rings, earrings, pendants, watches, necklaces, pearls, diamonds, cufflinks"
+					key="keywords"
+				/>
+			</Head>
 			<div className={styles.container}>
-				<Head>
-					<title>
-						Jewelsy | Fine Jewelry | Exclusive Collections | Best Prices
-					</title>
-					<meta
-						name="description"
-						content="Since 1884, Janusz Jewelsy is a genuine Swiss artisan and master craftsman who designs, creates and sells fine jewelry and exclusive collections at best prices"
-						key="description"
-					/>
-					<meta
-						name="keywords"
-						content="jewelry, bracelets, rings, earrings, pendants, watches, necklaces, pearls, diamonds, cufflinks"
-						key="keywords"
-					/>
-				</Head>
-
 				<Slider />
-
 				<main className={styles.main}>
 					<h1 className={styles.h1}>
 						Welcome to&nbsp;
@@ -52,8 +50,8 @@ export default function Home() {
 								<Image
 									className={styles.photos}
 									src={"/img/bracelets.jpg"}
-									width={250}
-									height={250}
+									width={222}
+									height={222}
 									objectFit="cover"
 									alt="Bracelets Collection"
 									title="Bracelets Collection"
@@ -68,8 +66,8 @@ export default function Home() {
 								<Image
 									className={styles.photos}
 									src={"/img/cufflinks.jpg"}
-									width={250}
-									height={250}
+									width={222}
+									height={222}
 									objectFit="cover"
 									alt="Cufflinks Collection"
 									title="Cufflinks Collection"
@@ -84,8 +82,8 @@ export default function Home() {
 								<Image
 									className={styles.photos}
 									src={"/img/diamonds.jpg"}
-									width={250}
-									height={250}
+									width={222}
+									height={222}
 									objectFit="cover"
 									alt="Diamonds Collection"
 									title="Diamonds Collection"
@@ -100,8 +98,8 @@ export default function Home() {
 								<Image
 									className={styles.photos}
 									src={"/img/earrings.jpg"}
-									width={250}
-									height={250}
+									width={222}
+									height={222}
 									objectFit="cover"
 									alt="Earrings Collection"
 									title="Earrings Collection"
@@ -116,8 +114,8 @@ export default function Home() {
 								<Image
 									className={styles.photos}
 									src={"/img/necklaces.jpg"}
-									width={250}
-									height={250}
+									width={222}
+									height={222}
 									objectFit="cover"
 									alt="Necklaces Collection"
 									title="Necklaces Collection"
@@ -132,8 +130,8 @@ export default function Home() {
 								<Image
 									className={styles.photos}
 									src={"/img/pearls.jpg"}
-									width={250}
-									height={250}
+									width={222}
+									height={222}
 									objectFit="cover"
 									alt="Pearls Collection"
 									title="Pearls Collection"
@@ -148,8 +146,8 @@ export default function Home() {
 								<Image
 									className={styles.photos}
 									src={"/img/pendants.jpg"}
-									width={250}
-									height={250}
+									width={222}
+									height={222}
 									objectFit="cover"
 									alt="Pendants Collection"
 									title="Pendants Collection"
@@ -164,8 +162,8 @@ export default function Home() {
 								<Image
 									className={styles.photos}
 									src={"/img/rings.jpg"}
-									width={250}
-									height={250}
+									width={222}
+									height={222}
 									objectFit="cover"
 									alt="Rings Collection"
 									title="Rings Collection"
@@ -180,8 +178,8 @@ export default function Home() {
 								<Image
 									className={styles.photos}
 									src={"/img/watches.jpg"}
-									width={250}
-									height={250}
+									width={222}
+									height={222}
 									objectFit="cover"
 									alt="Watches Collection"
 									title="Watches Collection"

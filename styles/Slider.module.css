@@ -1,35 +1,44 @@
 .container {
-	margin: 0;
-	padding: 0;
-	display: grid;
 	overflow: hidden;
+	display: flex;
+	padding: 5px;
+	margin: 0;
 }
 
 .wrapper {
-	display: grid;
-	grid-template-columns: repeat(98, 320px);
+	display: flex;
 }
 
 .imgContainer {
-	height: 320px;
-	width: 320px;
-	padding: 10px;
+	display: flex;
+	width: 327px;
+	height: 300px;
+	padding: 5px;
 }
 
 .imgItem {
-	height: 320px;
-	width: 320px;
+	width: 327px;
+	height: 300px;
 }
 
 .arrowContainer {
 	display: flex;
 	justify-content: space-between;
+	margin: 0 10px;
 }
 
 .arrowLeft,
 .arrowRight {
-	align-content: center;
+	display: flex;
 	background-color: white;
-	padding: 5px;
 	cursor: pointer;
+	padding: 10px;
+}
+
+.arrowLeft:hover {
+	background-color: rgb(240, 240, 240);
+}
+
+.arrowRight:hover {
+	background-color: rgb(240, 240, 240);
 }
