@@ -1,6 +1,4 @@
-export default function handler(req, res) {
-	res.status(200).json([
-		{
+const watches= [{
 			id: "600000",
 			name: "Watch",
 			description:
@@ -270,5 +268,7 @@ export default function handler(req, res) {
 			price: "Canadian Dollar",
 			photo: "/img/watch29-min.jpg",
 		},
-	]);
-}
+
+];
+
+export default watches;

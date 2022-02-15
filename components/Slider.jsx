@@ -28,7 +28,7 @@ const Slider = () => {
 								alt="Janusz Jewelsy Collections"
 								title="Janusz Jewelsy Collections"
 								width={327}
-								height={300}
+								height={217}
 								objectFit="cover"
 							/>
 						</div>

@@ -45,14 +45,13 @@ export default function Home() {
 						Get started by browsing our <b>exclusive</b> collections
 					</p>
 					<div className={styles.grid}>
-						<Link passHref href={"/"}>
+						<Link passHref href={"/bracelets"}>
 							<a className={styles.card} title="Bracelets Collection">
 								<Image
 									className={styles.photos}
 									src={"/img/bracelets.jpg"}
 									width={222}
 									height={222}
-									objectFit="cover"
 									alt="Bracelets Collection"
 									title="Bracelets Collection"
 								/>
@@ -61,14 +60,13 @@ export default function Home() {
 							</a>
 						</Link>
 
-						<Link passHref href={"/"}>
+						<Link passHref href={"/cufflinks"}>
 							<a className={styles.card} title="Cufflinks Collection">
 								<Image
 									className={styles.photos}
 									src={"/img/cufflinks.jpg"}
 									width={222}
 									height={222}
-									objectFit="cover"
 									alt="Cufflinks Collection"
 									title="Cufflinks Collection"
 								/>
@@ -77,14 +75,13 @@ export default function Home() {
 							</a>
 						</Link>
 
-						<Link passHref href={"/"}>
+						<Link passHref href={"/diamonds"}>
 							<a className={styles.card} title="Diamonds Collection">
 								<Image
 									className={styles.photos}
 									src={"/img/diamonds.jpg"}
 									width={222}
 									height={222}
-									objectFit="cover"
 									alt="Diamonds Collection"
 									title="Diamonds Collection"
 								/>
@@ -93,14 +90,13 @@ export default function Home() {
 							</a>
 						</Link>
 
-						<Link passHref href={"/"}>
+						<Link passHref href={"/earrings"}>
 							<a className={styles.card} title="Earrings Collection">
 								<Image
 									className={styles.photos}
 									src={"/img/earrings.jpg"}
 									width={222}
 									height={222}
-									objectFit="cover"
 									alt="Earrings Collection"
 									title="Earrings Collection"
 								/>
@@ -109,14 +105,13 @@ export default function Home() {
 							</a>
 						</Link>
 
-						<Link passHref href={"/"}>
+						<Link passHref href={"/necklaces"}>
 							<a className={styles.card} title="Necklaces Collection">
 								<Image
 									className={styles.photos}
 									src={"/img/necklaces.jpg"}
 									width={222}
 									height={222}
-									objectFit="cover"
 									alt="Necklaces Collection"
 									title="Necklaces Collection"
 								/>
@@ -125,14 +120,13 @@ export default function Home() {
 							</a>
 						</Link>
 
-						<Link passHref href={"/"}>
+						<Link passHref href={"/pearls"}>
 							<a className={styles.card} title="Pearls Collection">
 								<Image
 									className={styles.photos}
 									src={"/img/pearls.jpg"}
 									width={222}
 									height={222}
-									objectFit="cover"
 									alt="Pearls Collection"
 									title="Pearls Collection"
 								/>
@@ -141,14 +135,13 @@ export default function Home() {
 							</a>
 						</Link>
 
-						<Link passHref href={"/"}>
+						<Link passHref href={"/pendants"}>
 							<a className={styles.card} title="Pendants Collection">
 								<Image
 									className={styles.photos}
 									src={"/img/pendants.jpg"}
 									width={222}
 									height={222}
-									objectFit="cover"
 									alt="Pendants Collection"
 									title="Pendants Collection"
 								/>
@@ -157,14 +150,13 @@ export default function Home() {
 							</a>
 						</Link>
 
-						<Link passHref href={"/"}>
+						<Link passHref href={"/rings"}>
 							<a className={styles.card} title="Rings Collection">
 								<Image
 									className={styles.photos}
 									src={"/img/rings.jpg"}
 									width={222}
 									height={222}
-									objectFit="cover"
 									alt="Rings Collection"
 									title="Rings Collection"
 								/>
@@ -173,14 +165,13 @@ export default function Home() {
 							</a>
 						</Link>
 
-						<Link passHref href={"/"}>
+						<Link passHref href={"/watches"}>
 							<a className={styles.card} title="Watches Collection">
 								<Image
 									className={styles.photos}
 									src={"/img/watches.jpg"}
 									width={222}
 									height={222}
-									objectFit="cover"
 									alt="Watches Collection"
 									title="Watches Collection"
 								/>
@@ -190,8 +181,8 @@ export default function Home() {
 						</Link>
 					</div>
 					<p className={styles.textJustified}>
-						Disclaimer: Janusz&trade;&nbsp;Jewelsy&reg;&nbsp;sells fine jewelry
-						only. Therefore, our clients are required by law to make any and all
+						Janusz&trade;&nbsp;Jewelsy&reg;&nbsp;sells fine jewelry only.
+						Therefore, our clients are required by law to make any and all
 						monetary arrangements or payments in person, so that we can comply
 						with stringent laws, rules, and regulations in effect in
 						Switzerland, as well as with all applicable laws in the host country

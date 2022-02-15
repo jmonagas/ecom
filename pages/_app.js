@@ -6,6 +6,19 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
+				<title>
+					Jewelsy | Fine Jewelry | Exclusive Collections | Best Prices
+				</title>
+				<meta
+					name="description"
+					content="Since 1848, Janusz Jewelsy is a genuine Swiss artisan and master craftsman who designs, creates and sells fine jewelry and exclusive collections at best prices"
+					key="description"
+				/>
+				<meta
+					name="keywords"
+					content="jewelry, bracelets, rings, earrings, pendants, watches, necklaces, pearls, diamonds, cufflinks"
+					key="keywords"
+				/>
 				<meta lang="en" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<meta property="og:locale" content="en_US" key="og:locale" />

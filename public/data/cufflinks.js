@@ -1,6 +1,4 @@
-export default function handler(req, res) {
-	res.status(200).json([
-		{
+const cufflinks = [{
 			id: "700000",
 			name: "Cufflink",
 			description:
@@ -80,5 +78,7 @@ export default function handler(req, res) {
 			price: "Canadian Dollar",
 			photo: "/img/cufflinks8-min.jpg",
 		},
-	]);
-}
+	
+];
+
+export default cufflinks;

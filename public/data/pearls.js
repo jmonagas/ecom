@@ -1,6 +1,4 @@
-export default function handler(req, res) {
-	res.status(200).json([
-		{
+const pearls = [{
 			id: "900000",
 			name: "Pearl",
 			description:
@@ -50,5 +48,7 @@ export default function handler(req, res) {
 			price: "Canadian Dollar",
 			photo: "/img/pearls5-min.jpg",
 		},
-	]);
-}
+	
+];
+
+export default pearls;

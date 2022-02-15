@@ -1,6 +1,4 @@
-export default function handler(req, res) {
-	res.status(200).json([
-		{
+const rings = [{
 			id: "100000",
 			name: "Ring",
 			description:
@@ -280,5 +278,7 @@ export default function handler(req, res) {
 			price: "Canadian Dollar",
 			photo: "/img/rings30-min.jpg",
 		},
-	]);
-}
+	
+];
+
+export default rings;

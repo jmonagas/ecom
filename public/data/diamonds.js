@@ -1,6 +1,4 @@
-export default function handler(req, res) {
-	res.status(200).json([
-		{
+const diamonds = [{
 			id: "800000",
 			name: "Diamond",
 			description:
@@ -90,5 +88,7 @@ export default function handler(req, res) {
 			price: "Canadian Dollar",
 			photo: "/img/diamonds9-min.jpg",
 		},
-	]);
-}
+	
+];
+
+export default diamonds;

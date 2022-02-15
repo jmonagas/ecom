@@ -1,0 +1,74 @@
+.container {
+	background-color: white;
+	font-size: 18px;
+	line-height: 2;
+	max-width: 1920px;
+	align-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.mainImage {
+	padding-top: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mainGrid {
+	background-color: white;
+	max-width: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+		rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.h1 {
+	font-size: 2.5rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+.h2 {
+	font-size: 2.2rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.collectionsH1{
+	font-size: 2.5rem;
+	text-align: center;
+	margin: 2rem 0;
+
+}
+
+.textCentered {
+	text-align: center;
+	margin: 1rem;
+}
+
+.arrowBack {
+	color: rgb(0, 4, 255);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexGrid {
+	padding: 1.2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	line-height: 3;
+}
+
+.detailsBox {
+	padding: 2rem 0;
+	max-width: 900px;
+	align-items: center;
+	margin: 0 auto;
+}
