@@ -1,0 +1,5 @@
+{
+	"path-intellisense.autoTriggerNextSuggestion": true,
+	"editor.formatOnPaste": true,
+	"audioCues.enabled": "off"
+}

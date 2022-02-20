@@ -89,7 +89,7 @@ const Footer = () => {
 					rel="noopener noreferrer"
 					title="Created by Web Development By J. Monagas"
 				>
-					<p>Copyrights&nbsp;&copy;&nbsp;2022</p>
+					<p>Copyright&nbsp;&copy;&nbsp;Jewelsy&reg;</p>
 				</a>
 			</footer>
 		</>
